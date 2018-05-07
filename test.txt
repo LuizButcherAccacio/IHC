@@ -5,3 +5,5 @@ git status ("verifica o status")
 git add . ("adiciona arquivos ao git")
 git commit -a -m "mensagem" ("cria uma nova versão com todas(-a) as modificações )
 git push ("sobe as modificações pro repositorio remoto")
+
+git checkout . ("retorna para a versão do ultimo commit")
