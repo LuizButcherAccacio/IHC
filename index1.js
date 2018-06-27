@@ -112,12 +112,13 @@ const turmas = [       // Declarando a lista de turmas
     }
 ];
 
-//console.log("hello world");
+
+console.log("Por Favor digite a turma e o horário de aula a turma contendo dois algarismos e depois de um espaço o número da aula")
+console.log("Por Exemplo 2a 1")
+
 /*
-for(let t=0; t < turmas.length; t++)
-{
-    console.log(turmas[t].cod);
-}
+A frase acima não estava no projeto original, foi inserida para atender o requisito 
+euristico de usabilidade.
 */
 function responderAjuda(inputs)
 {
