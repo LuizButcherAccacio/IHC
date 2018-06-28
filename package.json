@@ -1,0 +1,22 @@
+{
+  "name": "ihc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuizButcherAccacio/IHC.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuizButcherAccacio/IHC/issues"
+  },
+  "homepage": "https://github.com/LuizButcherAccacio/IHC#readme",
+  "devDependencies": {
+    "node-telegram-bot-api": "^0.30.0"
+  }
+}
