@@ -113,8 +113,8 @@ const turmas = [       // Declarando a lista de turmas
 ];
 
 
-console.log("Por Favor digite a turma e o horário de aula a turma contendo dois algarismos e depois de um espaço o número da aula")
-console.log("Por Exemplo 2a 1")
+// console.log("Por Favor digite a turma e o horário de aula a turma contendo dois algarismos e depois de um espaço o número da aula")
+// console.log("Por Exemplo 2a 1")
 
 /*
 A frase acima não estava no projeto original, foi inserida para atender o requisito 
@@ -196,15 +196,17 @@ function analisarInput(mensagem)
     return resposta;
 }
 
-process.stdin.setEncoding('utf8');
+// process.stdin.setEncoding('utf8');
 
-process.stdin.on('readable', () => {
-  const userInput = process.stdin.read();
-  if (userInput !== null) {
-    process.stdout.write(analisarInput(userInput) + "\n");
-  }
-});
+// process.stdin.on('readable', () => {
+//   const userInput = process.stdin.read();
+//   if (userInput !== null) {
+//     process.stdout.write(analisarInput(userInput) + "\n");
+//   }
+// });
 
-
+module.exports = {
+    analisarInput,
+}
 //console.log(analisarInput("lista salas"));
 
